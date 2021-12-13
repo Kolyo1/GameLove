@@ -186,7 +186,6 @@ public class UpgradePerClickButton : MonoBehaviour
         {uiDisplayPeridotChanceCost.GetComponent<Text>().text = "GG!";}
 
         /////////////////////////////////////////////////////
-        /// 
         uiDisplayPeridotChanceUpgrade.GetComponent<Text>().text = "+Chance for peridot on click";
         peridotChanceTimesUpgraded.GetComponent<Text>().text = " x" + timesUpgradedPeridotChance;
     }

@@ -20,17 +20,16 @@ public class ClickTheMilk : MonoBehaviour
     {
         SaveSystem.Load();
     }
-    
+
     public void Clicker()
     {
         //Big sip and Main//
         int randomNumber = UnityEngine.Random.Range(BigMilkBox, 100);
-        if (randomNumber == BigMilkBox && randomNumber != 0)
+        if (randomNumber == 100)
         {
             bigSipAnim.GetComponent<Text>().enabled = true;
             bigSipAnim.GetComponent<Animation>().Play("BigSipAnim");
             liters += 2 * perClick;
-
         }
         else
         {
@@ -43,7 +42,7 @@ public class ClickTheMilk : MonoBehaviour
         {
             bigSipAnim.GetComponent<Text>().enabled = true;
             bigSipAnim.GetComponent<Animation>().Play("BigSipAnim");
-            SlideMenuShop.peridots ++;
+            SlideMenuShop.peridots++;
 
         }
         
