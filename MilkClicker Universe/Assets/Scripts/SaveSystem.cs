@@ -41,8 +41,8 @@ public class SaveSystem : MonoBehaviour
          UpgradePerClickButton.timesUpgradedPerClick = int.Parse(PlayerPrefs.GetString("timesUpgradedPerClick", "1"));
          UpgradePerClickButton.timesUpgradedBigSip = int.Parse(PlayerPrefs.GetString("timesUpgradedBigSip", "0"));
          SlideMenuShop.peridots = int.Parse(PlayerPrefs.GetString("peridots", "0"));
-         MilkersScript.cost = int.Parse(PlayerPrefs.GetString("MilkersCost", "100"));
-         MilkersScript.cost2 = int.Parse(PlayerPrefs.GetString("MilkersCost2", "500"));
+         MilkersScript.cost = double.Parse(PlayerPrefs.GetString("MilkersCost", "100"));
+         MilkersScript.cost2 = double.Parse(PlayerPrefs.GetString("MilkersCost2", "500"));
          UpgradePerClickButton.chanceForPeridotsOnClickCost = int.Parse(PlayerPrefs.GetString("peridotChanceCost", "700"));
          UpgradePerClickButton.timesUpgradedPeridotChance = int.Parse(PlayerPrefs.GetString("timesUpgradedPeridotChance", "0"));
          UpgradePerClickButton.timesUpgradedPeridotChance = int.Parse(PlayerPrefs.GetString("timesUpgradedPeridotChance", "0"));

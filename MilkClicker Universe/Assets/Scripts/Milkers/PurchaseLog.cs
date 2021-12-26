@@ -13,6 +13,10 @@ public class PurchaseLog : MonoBehaviour
         case 1:
             AutoMilk.SetActive(true);
             break;
+        case 2:
+            AutoMilk.SetActive(true);
+            break;
         }
+        
     }
 }
